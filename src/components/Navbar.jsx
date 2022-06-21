@@ -6,7 +6,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
     
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-7 bg-[#2B2727] text-[#b0b2c3]">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-7 text-[#b0b2c3]">
             <div>
                 {/* Logo */}
             </div>
