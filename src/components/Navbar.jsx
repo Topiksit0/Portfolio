@@ -6,18 +6,18 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
     
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2B2727] text-gray-300">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-7 bg-[#2B2727] text-[#b0b2c3]">
             <div>
                 {/* Logo */}
             </div>
 
                 {/* Menú */}
-                <ul className="hidden md:flex">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Education</li>
-                    <li>Experience</li>
-                    <li>Contact</li>
+                <ul className="hidden md:flex space-x-8">
+                    <li className="underL font-semibold">Home</li>
+                    <li className="underL font-semibold">About</li>
+                    <li className="underL font-semibold ">Education</li>
+                    <li className="underL font-semibold">Experience</li>
+                    <li className="underL font-semibold">Contact</li>
                 </ul>
             
             {/* Movil */}

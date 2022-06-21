@@ -20,10 +20,37 @@
 .line {
     content: "";
     display: inline-block;
-    position: relative;
-    top: -6px;
+    margin-bottom: 6px;
+    align-items: center;
     width: 22px;
     height: 2px;
     margin-left: 7px;
     background-color: #D5A82C;
+}
+
+.underL {
+    position: relative;
+    -webkit-transition: color 0.3s;
+   
+}
+
+
+.underL::after{
+    content: "";
+    position: absolute;
+    background-color: #D5A82C;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.underL:hover::after{
+    width: 100%;
+}
+
+.underL:hover{
+    color:white
+    
 }
