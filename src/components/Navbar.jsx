@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import {FaBars, FaTimes} from 'react-icons/fa'
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -9,6 +10,8 @@ const Navbar = () => {
         <div className="fixed w-full h-[80px] flex justify-between items-center px-7 text-[#b0b2c3]">
             <div>
                 {/* Logo */}
+                <img src={logo} className="h-5 w-5 sm:h-10 sm:w-10 sm:ml-11" alt="my logo" />
+
             </div>
 
                 {/* Menú */}
