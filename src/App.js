@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import coding from "./assets/coding.jpg"
 import About from "./components/About";
 import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       </div>
       <About/>
       <Experience/>
+      <Contact/>
 
     </div>
   );

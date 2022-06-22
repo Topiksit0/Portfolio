@@ -19,7 +19,7 @@ const Navbar = () => {
                     <li className="underL font-semibold">Home</li>
                     <li className="underL font-semibold">About</li>
                     <li className="underL font-semibold ">Education</li>
-                    <li className="underL font-semibold">Experience</li>
+                    <li className="underL font-semibold">Skills</li>
                     <li className="underL font-semibold">Contact</li>
                 </ul>
             
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <li className="py-6 text-4xl">Home</li>
                 <li className="py-6 text-4xl">About</li>
                 <li className="py-6 text-4xl">Education</li>
-                <li className="py-6 text-4xl">Experience</li>
+                <li className="py-6 text-4xl">Skills</li>
                 <li className="py-6 text-4xl">Contact</li>
             </ul>
 
