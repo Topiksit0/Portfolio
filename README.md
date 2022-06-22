@@ -2,6 +2,8 @@
 
 Personal portfolio created using ReactJS and Tailwind.
 
+![alt text](https://github.com/Topiksit0/Portfolio/blob/master/src/assets/landingpage.png?raw=true)
+
 **You can check my portfolio here (free domain since I'm a student):**
 
 (aún no he subido la página jeje)
