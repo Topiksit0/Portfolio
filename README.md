@@ -18,7 +18,7 @@ When I'm not working or futzing around with code, I study how to escape from Uni
 
 Since I started learning about web development I had the desire on working in a project envolving React, now that I have some free time I'm focused on learning it.
 
-Let's say that there are three main reasons why I sued React over another frameworks like Vue or Angular:
+There are three main reasons why I used React over another frameworks like Vue or Angular:
 1. React Has a Large Development Community.
 2. Easier to learn compared to Angular.
 3. High-demand technology.
