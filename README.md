@@ -29,3 +29,8 @@ Let's say that there are three main reasons why I sued React over another framew
 Websites created with Bootstraps are known for their responsiveness and flawless design, but the looks are generic and similar, since I wanted a unique design Tailwind was a better option rather than Bootstrap.
 
 ## Color Reference
+
+|Color |Hex|
+|-----|--------|
+|Yellow |#D5A82C      |
+|Black brown  |#2B2727      |
