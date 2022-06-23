@@ -14,17 +14,47 @@ const Navbar = () => {
     const styles = {
       active: {
         visibility: "visible",
-        transition: "all 0.5s"
+        transition: "all 0.5s", 
+        
+ 
       },
       hidden: {
         visibility: "hidden",
         transition: "all 0.5s",
         transform: "translateY(-100%)"
+      },
+      active_bg: {
+        visibility: "visible",
+        transition: "all 0.5s", 
+        background: "#2B2727"
+
       }
     }
+
+    /*Change background */
+
+     //navbar scroll when active state
+    const [navbar, setNavbar] = useState(false)
+
+    
+    const changeBackground = () => {
+        if (window.scrollY >= 1000) {
+        console.log(navbar === true)
+
+        } else {
+
+        }
+      }
+    
+      useEffect(() => {
+        changeBackground()
+        // adding the event when scroll change background
+        window.addEventListener("scroll", changeBackground)
+      })
+    
     
     return (
-        <div name="nave" className="fixed w-full h-[80px] flex justify-between items-center px-7 text-[#b0b2c3]" style={scrollDirection === "down" ? styles.active: styles.hidden}>
+        <div name="nave" className="fixed w-full h-[80px] flex justify-between items-center px-7 text-[#b0b2c3]" style={scrollDirection === "down" ? navbar === true ? styles.active_bg: styles.active: styles.hidden}>
             <div>
                 {/* Logo */}
                 <img src={logo} className="h-5 w-5 sm:h-8 sm:w-8 sm:ml-11" alt="my logo" />
