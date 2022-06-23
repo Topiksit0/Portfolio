@@ -1,14 +1,30 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import {FaBars, FaTimes} from 'react-icons/fa'
 import logo from "../assets/logo.png"
 import {Link} from 'react-scroll'
+import {useScroll} from '../components/utilities/helpers'
+
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
+
+    const { y, x, scrollDirection } = useScroll();  
+
+    const styles = {
+      active: {
+        visibility: "visible",
+        transition: "all 0.5s"
+      },
+      hidden: {
+        visibility: "hidden",
+        transition: "all 0.5s",
+        transform: "translateY(-100%)"
+      }
+    }
     
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-7 text-[#b0b2c3]">
+        <div name="nave" className="fixed w-full h-[80px] flex justify-between items-center px-7 text-[#b0b2c3]" style={scrollDirection === "down" ? styles.active: styles.hidden}>
             <div>
                 {/* Logo */}
                 <img src={logo} className="h-5 w-5 sm:h-8 sm:w-8 sm:ml-11" alt="my logo" />

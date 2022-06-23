@@ -8,10 +8,11 @@ const Contact = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-[#2B2727] text-[#2B2727]'>Contact.</p>
                 <p className='py-4'> &lt; Submit the form or send me an email marcospalominovivar@gmail.com &gt;</p>
             </div>
-            <input type="text" placeholder='Name' name="name" className=' p-2 bg-[#2B2727] text-white'  />
-            <input type="email" placeholder='Email' name="email" className='my-4 p-2 bg-[#2B2727] text-white' />
-            <textarea name="message" rows="10" className='bg-[#2B2727] p-2 text-white' placeholder='Message '></textarea>
-            <button className='text-[#2B2727] border-4 border-[#2B2727] hover:bg-[#2B2727] hover:border-[#2B2727] hover:text-white px-4 py-3 my-8 mx-auto flex items-center'>
+            <input type="text" placeholder='Name'  name="name" className=' p-2 bg-[#2B2727] text-white autofill:bg-[#2B2727]'  />
+            <input type="email"  placeholder='Email' name="email" className='my-4 p-2 bg-[#2B2727] text-white autofill:bg-[#2B2727]' />
+            <textarea name="message" rows="10" className='bg-[#2B2727] p-2 text-white autofill:bg-[#2B2727]' placeholder='Message '></textarea>
+            <button className='text-[#2B2727] border-4 border-[#2B2727] hover:bg-[#2B2727] hover:border-[#2B2727] hover:text-white px-4 py-3 my-8 mx-auto flex items-center font-semibold' 
+            style={{transition:'color 0.3s'}}>
                 Send Message
             </button>
         </form>
