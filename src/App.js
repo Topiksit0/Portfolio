@@ -4,6 +4,7 @@ import coding from "./assets/coding.jpg"
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <About/>
       <Experience/>
       <Contact/>
+      <Footer />
 
     </div>
   );
