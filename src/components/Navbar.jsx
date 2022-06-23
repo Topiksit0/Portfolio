@@ -63,19 +63,29 @@ const Navbar = () => {
 
                 {/* Menú */}
                 <ul className="hidden md:flex space-x-8">
+                <Link  to="home"  smooth={true}  duration={500} >
                     <li className="underL font-semibold">
-                    <Link  to="home"  smooth={true}  duration={500} >Home </Link>
-                    </li>
+                    Home
+                    </li>    
+                    </Link>
+                    <Link  to="about"  smooth={true}  duration={500} >
                     <li className="underL font-semibold">
-                    <Link  to="about"  smooth={true}  duration={500} >About </Link>
-                    </li>
+                    About
+                    </li>    
+                    </Link>
                     <li className="underL font-semibold ">Education</li>
+                    <Link  to="skills"  smooth={true}  duration={500} >
                     <li className="underL font-semibold">
-                    <Link  to="skills"  smooth={true}  duration={500} >Skills </Link>
-                    </li>
+                    Skills
+                    </li>    
+                    </Link>
+
+
+                    <Link  to="contact"  smooth={true}  duration={500} >
                     <li className="underL font-semibold">
-                    <Link  to="contact"  smooth={true}  duration={500} >Contact </Link>
-                    </li>
+                    Contact
+                    </li>    
+                    </Link>
                 </ul>
             
             {/* Movil */}
