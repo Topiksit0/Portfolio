@@ -35,6 +35,10 @@ const Navbar = () => {
         transition: "all 0.5s", 
         background: "#2B2727"
 
+      },
+      nothing: {
+        visibility: "visible",
+
       }
     }
 
@@ -61,7 +65,7 @@ const Navbar = () => {
       })
     
     return (
-        <div name="nave" className="fixed w-full h-[80px] flex justify-between items-center px-7 text-[#b0b2c3]" style={scrollDirection === "down" ? navbar === true ? styles.active_bg: styles.active: styles.hidden}>
+        <div name="nave" className="fixed w-full h-[80px] flex justify-between items-center px-7 text-[#b0b2c3]" style={nav === true ? styles.nothing: scrollDirection === "down" ? navbar === true ? styles.active_bg: styles.active: styles.hidden} >
             <div>
                 {/* Logo */}
                 <img src={logo} className="h-5 w-5 sm:h-8 sm:w-8 sm:ml-11" alt="my logo" />
@@ -86,18 +90,20 @@ const Navbar = () => {
                 </ul>
             
             {/* Movil */}
-            <div onClick={handleClick}  className="md:hidden z-10">
+            <div onClick={handleClick} className="md:hidden z-10 ">
                 {!nav ? <FaBars/> : <FaTimes/>}
             </div>
 
             {/* Movil menú */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#2B2727] flex flex-col justify-center items-center'}>
-                <li className="py-6 text-4xl"><Link  onClick={handleClick} to="home"  smooth={true}  duration={500} >Home </Link></li>
-                <li className="py-6 text-4xl"> <Link  onClick={handleClick} to="about"  smooth={true}  duration={500} >About </Link></li>
-                <li className="py-6 text-4xl">Education</li>
-                <li className="py-6 text-4xl"><Link  onClick={handleClick} to="skills"  smooth={true}  duration={500} >Skills </Link></li>
-                <li className="py-6 text-4xl"><Link  onClick={handleClick} to="contact"  smooth={true}  duration={500} >Contact </Link></li>
-            </ul>
+              <ul className={!nav ? 'hidden' : 'absolute top-0 right-0 w-full h-screen bg-[#272525] flex flex-col justify-center items-center transition-all ease-in-out duration-500 opacity-98'} >
+                  <li className="py-6 text-2xl font-semibold"><Link  onClick={handleClick} to="home"  smooth={true}  duration={500} >Home </Link></li>
+                  <li className="py-6 text-2xl font-semibold"> <Link  onClick={handleClick} to="about"  smooth={true}  duration={500} >About </Link></li>
+                  <li className="py-6 text-2xl font-semibold" >Education</li>
+                  <li className="py-6 text-2xl font-semibold"><Link  onClick={handleClick} to="skills"  smooth={true}  duration={500} >Skills </Link></li>
+                  <li className="py-6 text-2xl font-semibold"><Link  onClick={handleClick} to="contact"  smooth={true}  duration={500} >Contact </Link></li>
+              </ul>
+         
+
 
         </div>
     )
