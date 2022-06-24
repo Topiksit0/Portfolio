@@ -24,13 +24,14 @@ const Home = () => {
             
             <div className='pt-10'>
                 
-                <button className='text-white group border-2 px-6 py-3 my-2  flex items-center hover:bg-[#D5A82C] hover:border-[#D5A82C] hover:text-black'> 
+            <Link  to="contact"  smooth={true}  duration={500} >                
+                <button className='text-white group border-2 px-6 py-3 my-2  flex items-center hover:bg-[#D5A82C] hover:border-[#D5A82C] hover:text-black'>       
                 Get In Touch
                 <span className='group-hover:rotate-90 duration-300'>
                   <HiArrowNarrowRight className='ml-3'/>
-                </span>
-                
-                </button>
+                </span>  
+                </button> 
+                </Link>
             </div>
 
         </div>

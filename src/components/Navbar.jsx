@@ -9,7 +9,14 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
 
-    const { y, x, scrollDirection } = useScroll();  
+    let { y, x, scrollDirection } = useScroll();  
+
+
+    if(window.scrollY === 0){
+      scrollDirection = 'down'
+    };
+
+
 
     const styles = {
       active: {
@@ -35,23 +42,23 @@ const Navbar = () => {
 
      //navbar scroll when active state
     const [navbar, setNavbar] = useState(false)
+    console.log(navbar)
 
     
     const changeBackground = () => {
         if (window.scrollY >= 1000) {
-        console.log(navbar === true)
-
+            setNavbar(true)
         } else {
-
+            setNavbar(false)
         }
       }
+     
     
       useEffect(() => {
         changeBackground()
         // adding the event when scroll change background
         window.addEventListener("scroll", changeBackground)
       })
-    
     
     return (
         <div name="nave" className="fixed w-full h-[80px] flex justify-between items-center px-7 text-[#b0b2c3]" style={scrollDirection === "down" ? navbar === true ? styles.active_bg: styles.active: styles.hidden}>
