@@ -17,10 +17,7 @@ const About = () => {
                         <p className=''>Hi, I'm Marcus, 20-year-old spanish restless guy, currently studying Software Engineering at UB (Universitat de Barcelona).</p>
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae dui mi. Nullam venenatis commodo quam vel vestibulum. 
-                            Vivamus sit amet purus imperdiet, gravida sem a, scelerisque nisi. Phasellus at metus justo. 
-                            Morbi eget nisl sem. Quisque ac tincidunt nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam enim lectus, 
-                            feugiat sit amet diam et, efficitur faucibus lacus. Pellentesque faucibus nisi ex, id faucibus ipsum pharetra in. Ut eleifend ipsu
+                        <p>Since I was a kid, I've been interested in computers and video games, now that I'm a bit older, I'm studying what I always dreamed about, Computer Science. There are many fields that I'm interested in, but the ones that I most enjoy are web development and UI/UX design. 
                         </p>
                     </div>
             </div>

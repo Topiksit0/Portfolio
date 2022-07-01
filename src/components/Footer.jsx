@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className='mt-24 text-white mb-6'>
+        <div className='mt-24 text-white mb-6 text-xs font-extralight'>
             <p>© 2022 Marcus Vivar - Designed and built by <strong> Marcus.</strong></p>
         </div>
         
