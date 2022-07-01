@@ -5,11 +5,11 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Education from "./components/Education";
 
 function App() {
   return (
     <div >
-      
       <div>
         <img className="absolute inset-0 h-full w-full object-cover" src={coding} alt="" />
         <div className="absolute inset-0 bg-[#141313] bg-opacity-97"></div>
@@ -21,10 +21,11 @@ function App() {
   
       </div>
       <About/>
+      <Education/>
       <Experience/>
       <Contact/>
       <Footer />
-
+      
     </div>
   );
 }
