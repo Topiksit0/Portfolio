@@ -3,7 +3,7 @@ import {HiCalendar} from 'react-icons/hi'
 
 const Education = () => {
   return (
-    <div name="education" className='bg-slate-50 flex justify-center items-center p-4'>
+    <div name="education" className='bg-slate-50 flex justify-center items-center p-4 pb-36'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div>
                  <p className='text-4xl font-bold inline border-b-4 border-[#2B2727] text-[#2B2727]'>Education.</p>
@@ -38,7 +38,7 @@ const Education = () => {
                         </div>
                         <div className=' grid justify-center'>
                             <span className='education_rounder '></span>
-                            <span className='education_line'></span>
+                            <span className='education_line '></span>
                         </div>
                         <div></div>
 

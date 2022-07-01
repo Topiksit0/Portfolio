@@ -10,7 +10,7 @@ import vue from "../assets/vue.png"
 
 const Experience = () => {
   return (
-    <div name="skills" className=' bg-slate-50 '>
+    <div name="skills" className=' bg-slate-50 w-full h-screen'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-[#2B2727] text-[#2B2727]'>Skills.</p>

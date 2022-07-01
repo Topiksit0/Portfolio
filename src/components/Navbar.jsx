@@ -80,7 +80,9 @@ const Navbar = () => {
                     <li className="underL font-semibold">
                     <Link  to="about"  smooth={true}  duration={500} >About </Link>
                     </li>
-                    <li className="underL font-semibold ">Education</li>
+                    <li className="underL font-semibold">
+                    <Link  to="education"  smooth={true}  duration={500} >Education </Link>
+                    </li>
                     <li className="underL font-semibold">
                     <Link  to="skills"  smooth={true}  duration={500} >Skills </Link>
                     </li>
