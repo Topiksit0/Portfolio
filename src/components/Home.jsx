@@ -1,7 +1,6 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import {Link} from 'react-scroll'
-import Typical from 'react-typical'
 
 const Home = () => {
   return (
@@ -14,12 +13,7 @@ const Home = () => {
             </p>
             <h1 className='text-5xl sm:text-8xl font-bold text-[#D5A82C] tracking-tight'> Marcus Vivar.</h1>
             <p className='text-md sm:text-xl text-gray-300 italic'>
-              <Typical 
-                steps ={['Problem solver and Front-end Developer',1000]}
-                loop={Infinity}
-                wrapper="p"
-              />
-
+            Problem solver and Front-end Developer
             </p>
             
             <div className='pt-10'>
