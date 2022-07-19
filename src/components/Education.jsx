@@ -54,7 +54,7 @@ const Education = () => {
                             <h1 className='font-bold text-lg grid justify-center'> Computer Engineering </h1>
                             <p className='grid justify-center'> Universitat de Barcelona</p>
                             <div className='mt-5'>
-                                 <span className='flex sm:justify-center font-bold'> <HiCalendar className='mt-1'/> 2019 - 2023</span>
+                                 <span className='flex sm:justify-center font-bold'> <HiCalendar className='mt-1'/> 2019 - present</span>
                             </div>
                           
                         </div>

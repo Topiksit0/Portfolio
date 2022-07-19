@@ -8,10 +8,7 @@ const Footer = () => {
          <img src={logo} className="sm:max-w-[120px] max-w-[90px] mt-24"   />
         </div>
         
-        <div className='max-w-[500px]  w-full px-4 grid grid-cols-3 mt-8 justify-center'>
-            <div className='flex justify-center items-center'>
-                <a href='https://twitter.com/topiksit0' className='text-white font-extrabold underL text-center'>Twitter</a>
-            </div>
+        <div className='max-w-[500px]  w-full px-4 grid grid-cols-2 mt-8 justify-center'>
             <div className='flex justify-center items-center'>
                 <a href='https://www.linkedin.com/in/marcospalominovivar/' className='text-white font-extrabold underL text-center'>LinkedIn</a>
             </div>

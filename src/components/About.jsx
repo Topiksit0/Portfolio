@@ -14,10 +14,10 @@ const About = () => {
                 </div>
                 <div className='max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8'>
                     <div className='sm:text-right text-2xl font-bold '>
-                        <p className=''>Hi, I'm Marcus, 20-year-old spanish restless guy, currently studying Software Engineering at UB (Universitat de Barcelona).</p>
+                        <p className=''>Hi, I'm Marcus, a restless 21-year-old spanish guy, currently studying Software Engineering at UB (Universitat de Barcelona).</p>
                     </div>
                     <div>
-                        <p>Since I was a kid, I've been interested in computers and video games, now that I'm a bit older, I'm studying what I always dreamed about, Computer Science. There are many fields that I'm interested in, but the ones that I most enjoy are web development and UI/UX design. 
+                        <p>Since I was a kid, I've been interested in computers and video games, now that I'm a bit older, I'm studying what I always dreamed about, Computer Science. There are many fields that I'm interested in, but the ones that I enjoy the most are web development and UI/UX design. 
                         </p>
                     </div>
             </div>
