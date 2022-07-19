@@ -13,7 +13,7 @@ const Footer = () => {
                 <a href='https://www.linkedin.com/in/marcospalominovivar/' className='text-white font-extrabold underL text-center'>LinkedIn</a>
             </div>
             <div className='flex justify-center items-center'>   
-                <a href='https://github.com/Topiksit0' className='text-white font-extrabold underL text-center'>Github</a>
+                <a href='https://github.com/Topiksit0' className='text-white font-extrabold underL text-center'>GitHub</a>
             </div>
         </div>
 

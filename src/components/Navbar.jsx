@@ -100,7 +100,7 @@ const Navbar = () => {
               <ul className={!nav ? 'hidden' : 'absolute top-0 right-0 w-full h-screen bg-[#272525] flex flex-col justify-center items-center transition-all ease-in-out duration-500 opacity-98'} >
                   <li className="py-6 text-2xl font-semibold"><Link  onClick={handleClick} to="home"  smooth={true}  duration={500} >Home </Link></li>
                   <li className="py-6 text-2xl font-semibold"> <Link  onClick={handleClick} to="about"  smooth={true}  duration={500} >About </Link></li>
-                  <li className="py-6 text-2xl font-semibold" >Education</li>
+                  <li className="py-6 text-2xl font-semibold"> <Link  onClick={handleClick} to="education"  smooth={true}  duration={500} >Education </Link></li>
                   <li className="py-6 text-2xl font-semibold"><Link  onClick={handleClick} to="skills"  smooth={true}  duration={500} >Skills </Link></li>
                   <li className="py-6 text-2xl font-semibold"><Link  onClick={handleClick} to="contact"  smooth={true}  duration={500} >Contact </Link></li>
               </ul>
